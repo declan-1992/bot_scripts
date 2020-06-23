@@ -37,11 +37,6 @@ new_price = [x.text for x in new_price_element] # same concept as for-loop/ list
 print("New Prices:")
 print(new_price, '\n')
 
-# Pair each description with the old and new prices and print to terminal
-#for description, old_price, new_price in zip(description, old_price, new_price):
-#    print("Description: Old Price : New Price")
-#    print(description + " : " + old_price + " : " + new_price, '\n')
-
 
 # Pair each description with the old and new prices and print to terminal
 for description, old_price, new_price in zip(description, old_price, new_price):
